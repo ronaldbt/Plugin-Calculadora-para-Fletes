@@ -102,7 +102,7 @@ add_shortcode( "calculadora", function($atts, $content){
     <button type="button" onclick="calcularRuta()">Mostrar Precio Flete</button>
   </form>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzvhrW2_3rNGkK7o3rZpkOGBkM66Zf37U&libraries=places"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=(aqui_va_la_api_key)&libraries=places"></script>
   <script>
     var chileBounds = new google.maps.LatLngBounds(
       new google.maps.LatLng(-56.0, -75.0),
